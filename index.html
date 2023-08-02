@@ -7,11 +7,17 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-    <select onchange="test(event)" name="animations" id="animations">
-        <option value="playRun">Run</option>
-        <option value="playSit">Sit</option>
-        <option value="playIdle">Idle</option>
-        <option value="playStunned">Stunned</option>
+    <select onchange="playAnimation(event)" name="animations" id="animations">
+        <option value="run">Run</option>
+        <option value="sit">Sit</option>
+        <option value="idle">Idle</option>
+        <option value="stunned">Stunned</option>
+        <option value="roll">Roll</option>
+        <option value="dash">Dash</option>
+        <option value="death">Death</option>
+        <option value="bark">Bark</option>
+        <option value="jump">Jump</option>
+        <option value="fall">Fall</option>
     </select>
     <button onClick="test()">Click me</button>
     <canvas id="canvas1"></canvas>
